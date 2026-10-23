@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高爾夫球社 - 社課課表</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 16px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h2 {
+            color: #1b4332; /* 高爾夫球風格的深綠色 */
+            margin-bottom: 12px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            background-color: #ffffff;
+        }
+        .footer {
+            margin-top: 16px;
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>⛳ 社團近期社課課表</h2>
+        <!-- 這裡的 schedule.jpg 要跟你的圖片檔名完全一樣 -->
+        <img src="schedule.jpg" alt="高爾夫球社社課課表">
+        <div class="footer">請隨時關注社團 LINE 官方帳號最新公告</div>
+    </div>
+
+</body>
+</html>
